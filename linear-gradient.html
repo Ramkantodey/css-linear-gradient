@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            height: 400px;
+            width: 700px;
+            border: 10px solid black;
+            background-image: linear-gradient(red, blue, cyan);
+        }
+        .box-2{
+            height: 400px;
+            width: 700px;
+            border: 10px solid black;
+            background-image: linear-gradient(to right, red, blue, cyan, yellow);
+            /* to right er jaigai to buttom o dewa jabe and left o dewa jabe and top o deya jabe but ekta ,  comma use krte hbe */
+            margin-top: 50px;
+        }
+        /* degre diyew liner-gradient kra jai  */
+        .box-3{
+            height: 400px;
+            width: 700px;
+            border: 10px solid black;
+            background-image: linear-gradient(45deg, red, blue, cyan, green);
+            /* eikane 45 deg dewa hoiyeche ami chayle 90 deg o dite pari amr jto icca totu deg diye krte pari  */
+            margin-top: 50px;
+        }
+        /* eikane kon color ta kto % kre gradient make krbe seta amnite sadaron thake so amra chayle oita k kon color kto % kre nibe bole dite pari  jemon box-4 ea dewa hlo*/
+        .box-4{
+            height: 400px;
+            width: 700px;
+            border: 10px solid black;
+            background-image: linear-gradient(to right, red 8%, blue, cyan, green);
+            /* ami eikane red ea 8% dichi tar mane eikane red er j solid color ta ache seta 8% ei hbe */
+        }
+        /* abr amra chayle bole dite pari j kto % teke shoro hbe and kto % ea giye tar color er solid ta sesh hbe taw bole dite pari jmn box-5  */
+        .box-5{
+            height: 400px;
+            width: 700px;
+            border: 10px solid black;
+            background-image: linear-gradient(to right,
+            black, red, blue 20% 60%, cyan 70% 90%, green);
+            /* eikane blue te 20% 60% mane hocche j blue color ta 20% teke shoro hbe and 60% ea giye tar solid color ta sesh hbe  */
+            /* abr cyan color er modde bolchi 70% teke shoro and 90% giye sesh hte hte kn na ami 60% ea blue color ta sesh korchi jodi ami 60% teke cyan ta shoro kortam tahole 2 ta color er j combination seta kintu show krbe na  */
+
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <div>
+
+    </div>
+    <div class="box-2">
+
+    </div>
+    <div class="box-3">
+
+    </div>
+    <div class="box-4">
+
+    </div>
+    <div class="box-5">
+
+    </div>
 </body>
 </html>
